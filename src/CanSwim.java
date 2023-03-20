@@ -1,6 +1,5 @@
 public interface CanSwim {
-  public default void swim()
-  {
+  default void swim() {
     System.out.println("I can swim");
   }
 }

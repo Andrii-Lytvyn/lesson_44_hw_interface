@@ -12,5 +12,25 @@ public class Main {
     hero.fly();
     hero.swim();
     hero.run();
+    System.out.println();
+    Human human = new Human();
+    human.fly();
+    human.swim();
+    human.run();
+    System.out.println();
+    Duck duck = new Duck();
+    duck.fly();
+    duck.swim();
+    duck.run();
+    System.out.println();
+    Penguin penguin = new Penguin();
+    penguin.fly();
+    penguin.swim();
+    penguin.run();
+    System.out.println();
+    Airplane airplane = new Airplane();
+    airplane.fly();
+    airplane.run();
+    airplane.swim();
   }
 }

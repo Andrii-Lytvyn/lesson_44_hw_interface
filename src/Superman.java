@@ -1,4 +1,4 @@
-public class Superman implements CanFly, CanRun, CanSwim{
+public class Superman implements CanFly, CanRun, CanSwim {
   @Override
   public void fly() {
     CanFly.super.fly();//тут я специально оставил чтоб работал и дефолт и оверрайд
