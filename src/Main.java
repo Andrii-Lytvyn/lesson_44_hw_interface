@@ -8,6 +8,9 @@ public class Main {
  "Самолёт".
   */
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    Superman hero = new Superman();
+    hero.fly();
+    hero.swim();
+    hero.run();
   }
 }
